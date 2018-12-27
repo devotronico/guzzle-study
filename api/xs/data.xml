@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="Book">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="Title" type="xs:string"/>
+<xs:element name="Author" type="xs:string" minOccurs="1" maxOccurs="2"/>
+<xs:element name="Publication_Year" type="xs:positiveInteger"/>
+<xs:element name="Category" type="xs:string"/>
+<xs:element name="Language" type="xs:string" default="English"/>
+<xs:element name="Pages" type="xs:postiveInteger"/>
+<xs:element name="Number_of_Chapters" type="xs: postiveInteger "/>
+<xs:element name="Chap_1" type="xs:string" minOccurs="1" maxOccurs="1"/>
+<xs:element name="Chap_2" type="xs:string" minOccurs="1" maxOccurs="1"/>
+<xs:element name="Chap_3" type="xs:string" minOccurs="1" maxOccurs="1"/>
+<xs:element name="Reference" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

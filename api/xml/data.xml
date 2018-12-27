@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Book.xsd">
+    <Title> A book on test data</Title>
+    <Author>Jim</Author>
+    <Publication_Year>2015</Publication_Year>
+    <Autori>
+        <Nome>Daniele</Nome>
+        <Nome>Paride</Nome>
+        <Nome>Nicola</Nome>
+    </Autori>
+    <Category>Technical</Category>
+    <Language>English</Language>
+    <Pages>120</Pages>
+    <Number_of_Chapters>10</Number_of_Chapters>
+    <Chap_1>Acknowledgement</Chap_1>
+    <Chap_2>Introduction</Chap_2>
+    <Chap_3>What is data</Chap_3>
+    <Reference>List of references</Reference>
+</Book>

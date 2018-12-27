@@ -1,0 +1,16 @@
+{
+    "Title": "A book on test data",
+    "Author": "Jim",
+    "Publication_Year": "2015",
+    "Autori": {
+        "Nome":[ "Daniele", "Paride", "Nicola"]
+    },
+    "Category": "Technical",
+    "Language": "English",
+    "Pages": "120",
+    "Number_of_Chapters": "10",
+    "Chap_1": "Acknowledgement",
+    "Chap_2": "Introduction",
+    "Chap_3": "What is data",
+    "Reference": "List of references"
+}

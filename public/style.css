@@ -1,0 +1,17 @@
+.section {
+
+    padding: 16px;    
+}
+
+#xml {
+    background-color: gold;
+}
+#json {
+    background-color: rgb(219, 209, 209);
+}
+#test {
+    background-color: silver;
+}
+#async {
+    background-color: rgb(190, 126, 126);
+}
